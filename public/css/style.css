@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    background: linear-gradient(to left, #4ce4dc, #77d4eb);
+    font-family: 'Bebas Neue', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    font-size: 15pt;
+}
+
+.jumbotron {
+    background: none;
+    color: white;
+    padding-top: 15%;
+}
+
+.jumbotron .btn {
+    background: #78ebe5;
+}
+
+.display-4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.kotak {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.content {
+    text-align: left;
+    background-color: white;
+    margin-top: 2%;
+    padding: 2%;
+    margin: 2%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 98%;
+}
+
+.layanan {
+    margin-top: 0;
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(3, 22%);
+    grid-template-rows: repeat(3, auto);
+}
+
+.content-1 {
+    margin-left: 2%;
+}
+
+.content-1 h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    width: 18rem;
+    margin: 20px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.content-2 {
+    margin-top: 5%;
+}
