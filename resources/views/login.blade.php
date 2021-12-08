@@ -17,11 +17,12 @@
 <body>
     <div class="login-page">
         <div class="form">
+            <a href="/"><button class="btn btn-denger"">back</button></a>
             <form class="login-form" action="cekLogin.php" method="POST" onSubmit="return validasi()">
                 <h4>Login Akun</h4>
                 <input type="text" placeholder="Username" name="username" id="username" />
                 <input type="password" placeholder="password" name="password" id="password" />
-                <button>login</button>
+                <button class="login">login</button>
             </form>
         </div>
     </div>

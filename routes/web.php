@@ -26,3 +26,6 @@ route::get('/login', function () {
     return view('login');
 });
 
+route::get('/detail', function () {
+    return view('detail');
+});

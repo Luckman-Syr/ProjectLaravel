@@ -5,6 +5,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" style="width: 100%;">
+                    <a href="login" class="nav-link" style=" float: right; position: absolute; margin-left: 80%; top:5%; color: #288b87">Logout</a>
                 </div>
             </div>
         </nav>
